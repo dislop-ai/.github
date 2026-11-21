@@ -9,6 +9,7 @@ It never rewrites a word. The pen stays with you.
 - Try it in a browser tab, with nothing uploaded: [dislop.com](https://dislop.com)
 - Run it on a folder: `npx --yes github:dislop-ai/dislop check .`
 - See who else is working on this: [Awesome Anti-Slop](https://github.com/dislop-ai/dislop/tree/main/awesome), a checked list of 87 tools, guides, and papers
+- Join in or pick a track: [Roadmap](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.md) · [Discussions](https://github.com/dislop-ai/dislop/discussions)
 
 ---
 
@@ -21,3 +22,4 @@ dislop 看稿子、PPT 和网页，就像责任编辑看校样。不能发的硬
 - 试一试：打开 [dislop.com](https://dislop.com)，稿子不出这个标签页
 - 跑一遍：`npx --yes github:dislop-ai/dislop check .`
 - 看看同路人：[Awesome Anti-Slop 中文清单](https://github.com/dislop-ai/dislop/blob/main/awesome/README.zh-CN.md)，逐条核过链接的 87 条工具、规范与论文
+- 参与讨论与协作：[路线图](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.zh-CN.md) · [GitHub Discussions](https://github.com/dislop-ai/dislop/discussions)
