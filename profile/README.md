@@ -2,12 +2,12 @@
 
 **Clear the AI slop from your writing and design.**
 
-`dislop` gathers proven writing habits, web and slide design rules, an offline zero-dependency checker, and 87 vetted tools in one place—so you and your AI agent can clean up docs, Word/PowerPoint decks, and web pages before they ship.
+`dislop` splits cleanly into an **open-source offline core** (`Skill`, `CLI`, 25 deterministic rules, 87 vetted tools, and `dislop-bench` under Apache-2.0) and an optional **hosted Cloud Remote MCP** (`https://dislop.com/mcp`) for LLM-backed 3rd-order review, self-healing rewriting, and voice extraction.
 
-- **Try it online (zero upload)**: [dislop.com](https://dislop.com)
+- **Try it online (offline by default + opt-in AI rewrite)**: [dislop.com](https://dislop.com)
 - **Hand it to any AI (zero install)**: paste `Read https://dislop.com/llms.txt and follow its writing and design anti-slop rules and checks before delivering my next doc, slide deck, or web page.`
-- **Install for your coding agent**: `npx skills add dislop-ai/dislop` (Skill) or `/plugin marketplace add dislop-ai/dislop` (Claude Code Plugin with Skill + local MCP)
-- **Run from a terminal**: `npx --yes github:dislop-ai/dislop check .`
+- **Open-source local Skill & CLI (zero LLM, zero upload)**: `npx skills add dislop-ai/dislop` · `npx --yes github:dislop-ai/dislop check .`
+- **Hosted Cloud Remote MCP (30 free credits/month)**: claim a Bearer token at [dislop.com/#pricing](https://dislop.com/#pricing) and connect `https://dislop.com/mcp`
 - **Browse 87 vetted tools, guides, and papers**: [Awesome Anti-Slop](https://github.com/dislop-ai/dislop/tree/main/awesome)
 - **Roadmap & collaboration**: [Roadmap](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.md) · [Discussions](https://github.com/dislop-ai/dislop/discussions)
 
@@ -15,11 +15,11 @@
 
 **发之前，把文案和设计里的 AI 味过一遍。**
 
-`dislop` 把靠谱的写作规矩、网页和 PPT 设计原则、离线零依赖检查工具和 87 条精选资源收在一起，帮你和你的 Agent 在交付文档、Word、PPT 或网页前把 AI 味清干净。
+`dislop` 采用清晰的 **开源本地 + 托管云端** 双层结构：开源部分（`Skill`、`CLI`、25 条确定性规则、87 条工具清单与 `dislop-bench`）按 Apache-2.0 永久免费、零联网零上传；需要大模型三阶审校、自愈一键去味与文风提取时，可直接连接官方托管的远程 MCP（`https://dislop.com/mcp`）。
 
-- **在线试查与真实案例（不上传文件）**：[dislop.com](https://dislop.com)
+- **在线试查（默认离线零上传 + 按需一键 AI 去味）**：[dislop.com](https://dislop.com)
 - **发给任意联网 AI（免安装）**：直接发 `先读 https://dislop.com/llms.txt，按里面整理的文案和设计去 AI 味规矩与检查方法，帮我把接下来这份稿子发之前过一遍。`
-- **装给编程 Agent**：`npx skills add dislop-ai/dislop`（Skill）或 `/plugin marketplace add dislop-ai/dislop`（Claude Code Plugin，打包 Skill + 本地 MCP）
-- **命令行直接跑**：`npx --yes github:dislop-ai/dislop check .`
+- **开源本地 Skill 与命令行（零大模型、保隐私）**：`npx skills add dislop-ai/dislop` · `npx --yes github:dislop-ai/dislop check .`
+- **托管远程 HTTP MCP（每月 30 次免费额度）**：在 [dislop.com/#pricing](https://dislop.com/#pricing) 10 秒领 Token，直连 `https://dislop.com/mcp`
 - **87 条去 AI 味工具与规范**：[Awesome Anti-Slop 中文清单](https://github.com/dislop-ai/dislop/blob/main/awesome/README.zh-CN.md)
 - **路线图与讨论**：[路线图](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.zh-CN.md) · [GitHub Discussions](https://github.com/dislop-ai/dislop/discussions)
