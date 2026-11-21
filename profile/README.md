@@ -1,11 +1,23 @@
 # dislop
 
-Deterministic pre-publication deliverable linter and revision verifier across Markdown, HTML/CSS/SVG, Word (`.docx`), PowerPoint (`.pptx`), and PDF metadata.
+**A red pen for whatever your AI wrote.**
 
-- **Website & Workbench**: [dislop.com](https://dislop.com)
-- **Repository**: [dislop-ai/dislop](https://github.com/dislop-ai/dislop) (`Apache-2.0`, zero runtime dependencies in Node.js 20+ and Python 3.10+)
-- **MCP Server**: `io.github.dislop-ai/dislop` (`dislop_check`, `dislop_verify`, `dislop_explain`, `dislop_packs`)
+dislop reads a draft, a deck, or a web page the way a copy editor reads a proof. It strikes what can't ship: a leaked `/Users/example/...` path, an `[insert figure]` nobody filled in, a chatbot greeting left on line one. It asks one question about anything that sounds canned. After you edit, it reads your version against the original and tells you which number, qualifier, link, or citation went missing.
+
+It never rewrites a word. The pen stays with you.
+
+- Try it in a browser tab, with nothing uploaded: [dislop.com](https://dislop.com)
+- Run it on a folder: `npx --yes github:dislop-ai/dislop check .`
+- See who else is working on this: [Awesome Anti-Slop](https://github.com/dislop-ai/dislop/tree/main/awesome), a checked list of 87 tools, guides, and papers
 
 ---
 
-发稿前确定性审校与改稿复检工具：本地检出路径泄露、未填占位符、超载幻灯片与二阶套话，并通过 `dislop verify` 核对改稿未篡改数字、日期、单位、链接与引用。
+**给 AI 写的东西配一支红笔。**
+
+dislop 看稿子、PPT 和网页，就像责任编辑看校样。不能发的硬伤，它直接划掉：漏出来的本机路径、没人填的 `【待补充】`、留在第一行的 AI 寒暄。听着像套话的地方，它在页边问你一句。等你改完，它拿你的稿子和原稿对一遍，哪个数字、限定词、链接或引用不见了，逐条告诉你。
+
+它不替你改稿。笔在你手里。
+
+- 试一试：打开 [dislop.com](https://dislop.com)，稿子不出这个标签页
+- 跑一遍：`npx --yes github:dislop-ai/dislop check .`
+- 看看同路人：[Awesome Anti-Slop 中文清单](https://github.com/dislop-ai/dislop/blob/main/awesome/README.zh-CN.md)，逐条核过链接的 87 条工具、规范与论文
