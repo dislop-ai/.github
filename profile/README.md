@@ -1,25 +1,21 @@
 # dislop
 
-**A red pen for whatever your AI wrote.**
+`dislop` is a local, zero-dependency linter for AI-written docs, slides, and web pages.
 
-dislop reads a draft, a deck, or a web page the way a copy editor reads a proof. It strikes what can't ship: a leaked `/Users/example/...` path, an `[insert figure]` nobody filled in, a chatbot greeting left on line one. It asks one question about anything that sounds canned. After you edit, it reads your version against the original and tells you which number, qualifier, link, or citation went missing.
+AI drafts often leave behind chat replies, stock phrasing, local file paths, unfilled placeholders, or dead links. Auto-rewriters often quietly drop numbers when they clean those up. `dislop` only marks what looks off so you can edit it yourself, then checks your edited draft against the original to make sure numbers, qualifiers, dates, links, code spans, and citations are still there.
 
-It never rewrites a word. The pen stays with you.
-
-- Try it in a browser tab, with nothing uploaded: [dislop.com](https://dislop.com)
+- Try it in a browser tab with nothing uploaded: [dislop.com](https://dislop.com)
 - Run it on a folder: `npx --yes github:dislop-ai/dislop check .`
-- See who else is working on this: [Awesome Anti-Slop](https://github.com/dislop-ai/dislop/tree/main/awesome), a checked list of 87 tools, guides, and papers
-- Join in or pick a track: [Roadmap](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.md) · [Discussions](https://github.com/dislop-ai/dislop/discussions)
+- Browse 87 other tools, guides, and papers: [Awesome Anti-Slop](https://github.com/dislop-ai/dislop/tree/main/awesome)
+- See what is next or join in: [Roadmap](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.md) · [Discussions](https://github.com/dislop-ai/dislop/discussions)
 
 ---
 
-**给 AI 写的东西配一支红笔。**
+`dislop` 是一个本地运行、零依赖的检查工具，用来挑出 AI 写完的文档、PPT 和网页里的硬伤和套话。
 
-dislop 看稿子、PPT 和网页，就像责任编辑看校样。不能发的硬伤，它直接划掉：漏出来的本机路径、没人填的 `【待补充】`、留在第一行的 AI 寒暄。听着像套话的地方，它在页边问你一句。等你改完，它拿你的稿子和原稿对一遍，哪个数字、限定词、链接或引用不见了，逐条告诉你。
+AI 写完的稿子经常夹着开头寒暄、空话、本机路径、没填的占位符或空链接，自动改写工具又常常一不小心把数字或“最多”“至少”这类限定词改丢。`dislop` 只负责把问题标出来，不替你重写。改完拿原稿对一下，确认数字、限定词、日期、链接、代码和引用都没漏就行。
 
-它不替你改稿。笔在你手里。
-
-- 试一试：打开 [dislop.com](https://dislop.com)，稿子不出这个标签页
-- 跑一遍：`npx --yes github:dislop-ai/dislop check .`
-- 看看同路人：[Awesome Anti-Slop 中文清单](https://github.com/dislop-ai/dislop/blob/main/awesome/README.zh-CN.md)，逐条核过链接的 87 条工具、规范与论文
-- 参与讨论与协作：[路线图](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.zh-CN.md) · [GitHub Discussions](https://github.com/dislop-ai/dislop/discussions)
+- 浏览器直接试（不上传文件）：[dislop.com](https://dislop.com)
+- 命令行检查当前目录：`npx --yes github:dislop-ai/dislop check .`
+- 87 个相关工具、规范与论文：[Awesome Anti-Slop 中文清单](https://github.com/dislop-ai/dislop/blob/main/awesome/README.zh-CN.md)
+- 路线图与讨论：[路线图](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.zh-CN.md) · [GitHub Discussions](https://github.com/dislop-ai/dislop/discussions)
