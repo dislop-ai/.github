@@ -2,8 +2,8 @@
 
 Deterministic pre-publication deliverable linter and revision verifier across Markdown, HTML/CSS/SVG, Word (`.docx`), PowerPoint (`.pptx`), and PDF metadata.
 
+- **Website & Workbench**: [dislop.com](https://dislop.com)
 - **Repository**: [dislop-ai/dislop](https://github.com/dislop-ai/dislop) (`Apache-2.0`, zero runtime dependencies in Node.js 20+ and Python 3.10+)
-- **Interactive Galley Workbench**: [dislop-ai.github.io](https://dislop-ai.github.io) · `dislop.com`
 - **MCP Server**: `io.github.dislop-ai/dislop` (`dislop_check`, `dislop_verify`, `dislop_explain`, `dislop_packs`)
 
 ---
