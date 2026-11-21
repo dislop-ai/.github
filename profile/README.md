@@ -1,10 +1,11 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/dislop-ai/dislop/main/assets/banner.svg" alt="dislop" width="100%" />
-</p>
+# dislop
 
-**`dislop`** builds open-source, deterministic quality gates and pluggable **Taste Packs** to catch AI prose clichés, layout collisions, and slide word-walls across Markdown, HTML, DOCX, and PPTX before delivery.
+Deterministic pre-publication deliverable linter and revision verifier across Markdown, HTML/CSS/SVG, Word (`.docx`), PowerPoint (`.pptx`), and PDF metadata.
 
-**`dislop`** 致力于构建开源的跨模态交付质检门禁与可插拔审美包（Taste Packs），在文章、网页、演示稿与办公文档发出前定位套话、版式越界与生成痕迹。
+- **Repository**: [dislop-ai/dislop](https://github.com/dislop-ai/dislop) (`Apache-2.0`, zero runtime dependencies in Node.js 20+ and Python 3.10+)
+- **Interactive Galley Workbench**: [dislop-ai.github.io](https://dislop-ai.github.io) · `dislop.com`
+- **MCP Server**: `io.github.dislop-ai/dislop` (`dislop_check`, `dislop_verify`, `dislop_explain`, `dislop_packs`)
 
-- Repository / 核心仓库: [dislop-ai/dislop](https://github.com/dislop-ai/dislop) ([English](https://github.com/dislop-ai/dislop/blob/main/README.md) · [简体中文](https://github.com/dislop-ai/dislop/blob/main/README.zh-CN.md))
-- Website / 官网: [dislop.com](https://dislop.com)
+---
+
+发稿前确定性审校与改稿复检工具：本地检出路径泄露、未填占位符、超载幻灯片与二阶套话，并通过 `dislop verify` 核对改稿未篡改数字、日期、单位、链接与引用。
