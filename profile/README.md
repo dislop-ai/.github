@@ -1,8 +1,8 @@
 # dislop
 
-`dislop` is a local, zero-dependency linter for AI-written docs, slides, and web pages.
+`dislop` is a local, zero-dependency anti-slop linter for AI-written docs, Word/PowerPoint files, and web pages.
 
-AI drafts often leave behind chat replies, stock phrasing, local file paths, unfilled placeholders, or dead links. Auto-rewriters often quietly drop numbers when they clean those up. `dislop` only marks what looks off so you can edit it yourself, then checks your edited draft against the original to make sure numbers, qualifiers, dates, links, code spans, and citations are still there.
+AI drafts often leave behind chat replies, stock phrasing, unfilled placeholders, overcrowded slides, or purple-pink template chrome. `dislop` only marks what looks off so you can edit it yourself, and catches 2nd-order AI slogans if a rewrite trades one cliché for another.
 
 - Try it in a browser tab with nothing uploaded: [dislop.com](https://dislop.com)
 - Run it on a folder: `npx --yes github:dislop-ai/dislop check .`
@@ -11,9 +11,9 @@ AI drafts often leave behind chat replies, stock phrasing, local file paths, unf
 
 ---
 
-`dislop` 是一个本地运行、零依赖的检查工具，用来挑出 AI 写完的文档、PPT 和网页里的硬伤和套话。
+`dislop` 是一个本地运行、零依赖的检查工具，专门挑出 AI 写完的文档、Word、PPT 和网页里的残留硬伤、空话套话和模板味。
 
-AI 写完的稿子经常夹着开头寒暄、空话、本机路径、没填的占位符或空链接，自动改写工具又常常一不小心把数字或“最多”“至少”这类限定词改丢。`dislop` 只负责把问题标出来，不替你重写。改完拿原稿对一下，确认数字、限定词、日期、链接、代码和引用都没漏就行。
+AI 写完的稿子经常夹着开头寒暄、未填占位符、公文套话、满页字墙或默认紫粉渐变。`dislop` 只负责把这些问题标出来，不替你重写；改完再查一遍，如果换成了“不是……而是……”这类二阶 AI 腔一样会标出来。
 
 - 浏览器直接试（不上传文件）：[dislop.com](https://dislop.com)
 - 命令行检查当前目录：`npx --yes github:dislop-ai/dislop check .`
