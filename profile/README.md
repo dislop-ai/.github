@@ -11,16 +11,15 @@
   <a href="https://dislop.com/rules/">Rule Catalog</a> ·
   <a href="https://dislop.com/awesome/">Awesome Anti-Slop</a> ·
   <a href="https://www.npmjs.com/package/dislop">npm</a> ·
-  <a href="https://pypi.org/project/dislop/">PyPI</a> ·
   <a href="https://x.com/dislop_ai">X (@dislop_ai)</a> ·
   <a href="https://github.com/dislop-ai/dislop/blob/main/README.zh-CN.md">简体中文</a>
 </p>
 
-**Cutting AI slop is real productivity.** `dislop` is an open-source linter for AI slop that helps you and your agent catch and fix chatbot leftovers, second-order clichés, lost numbers, and template layouts in docs, web UI, Word, and PowerPoint before sending.
+**Cutting AI slop is real productivity.** `dislop` is an open-source pluggable editorial and artifact linter built on a zero-dependency Node.js (`>= 20`) micro-kernel for docs, web UI, PDF, Word (`.docx`), PowerPoint (`.pptx`), and raster images.
 
-- **Markdown-only Agent Skills ([dislop-ai/dislop](https://github.com/dislop-ai/dislop), Apache-2.0)**: `npx skills add dislop-ai/dislop` installs `dislop` and four task-focused skills (`deslop-docs`, `deslop-slides-docx`, `deslop-web-ui`, `deslop-verify`) with zero scripts and zero network calls.
-- **Zero-Dependency Local CLI & Editor Plugins**: `npx --yes dislop check .` and `uvx dislop check .` run offline across `7` built-in packs (`53` rules), `65` patterns, a `14.6 KB` Pocket ML ensemble, and a `90`-tool Awesome Anti-Slop directory.
-- **Official Cloud MCP & Web Workbench (`https://dislop.com/mcp`)**: `dislop_check`, `dislop_verify`, and `dislop_rules` run at `0` credits without login; Google, GitHub, or email sign-in unlocks `30` monthly credits for multi-model genre review, layout-preserving Office cleanup, and screenshot UI audits.
-- **30-Task Ecosystem Benchmark**: Pairing `humanizer`, `stop-slop`, `Humanizer-zh`, or `lieflat` with one offline `dislop` post-check cleared remaining HTML/PPTX defects and raised clean pass rates by `+13.3` percentage points in English and `+20.0` in Chinese ([full results](https://github.com/dislop-ai/dislop/blob/main/benchmarks/ECOSYSTEM-BENCHMARK.md)).
+- **Agent Skills (`npx --yes skills add dislop-ai/dislop`, Apache-2.0)**: Pure-Markdown genre reference cards for work docs, essays, web UI, and Office deliverables with zero bundled scripts and zero network calls.
+- **Pluggable Micro-Kernel CLI, SDK & Local MCP (`npx --yes dislop check .`)**: Runs across `11` stage-gated Packs (`common`, `en`, `zh` × `artifact-qa`, `prose`, `web-ui`, `slide-deck`) with `.dislop.json` `overrides`, declarative `.dislop/rules.json`, `dislop packs lint` pack security validation, `--changed` Git diff gates, Dual-Track CI exit codes (`Defect` vs. `Suggestion`), lossless OOXML patching, and Dual Fact Gate verification.
+- **Local-First 3-Tier Semantic Routing & Official Cloud (`https://dislop.com`)**: Runs locally with zero uploads by default (`--engine local`), with opt-in Tier 3 local Ollama models (`dislop model pull`), Tier 2 BYOK (`--engine byok`), and Tier 1 Official Cloud (`dislop login`).
+- **Benchmarked Multi-Modal Quality (`dislop-bench v3`)**: Validated offline across `86` multi-modal samples, `18` prompt-injection/trust cases, and `30` revision/Fact Gate checks ([`benchmarks/REPORT.md`](https://github.com/dislop-ai/dislop/blob/main/benchmarks/REPORT.md)).
 
-Collaborate: [Roadmap](https://github.com/dislop-ai/dislop/blob/main/ROADMAP.md) · [Issues](https://github.com/dislop-ai/dislop/issues) · [Discussions](https://github.com/dislop-ai/dislop/discussions) · Contact: `hello@dislop.com`
+Collaborate: [Architecture](https://github.com/dislop-ai/dislop/blob/main/docs/architecture.md) · [Issues](https://github.com/dislop-ai/dislop/issues) · [Discussions](https://github.com/dislop-ai/dislop/discussions) · Contact: `hello@dislop.com`
